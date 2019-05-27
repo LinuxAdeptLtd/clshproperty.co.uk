@@ -1,0 +1,181 @@
+---
+layout: page
+title: CLSHPropertyLtd
+permalink: /
+---
+
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp">A FULL-SERVICE PROPERTY COMPANY BASED IN GREATER MANCHESTER</h1>
+          <p class="animated fadeInUp">Enchancing our clients quality of life through hands-off property investment and solutions, maximising returns on property portfolios</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>About Us</h2>
+            <p>CLSH Property Ltd is a full-service property company based in Greater Manchester, enchancing our clients quality of life through hands-off property investment and solutions, maximising returns on individual properties and property portfolios.</p>
+          </div>
+          <p>
+            CLSH Property Ltd has been formed by company director Caroline Hume, who has over ten years of experience working for global companies helping them to maximise their turnover. 
+            After merging her skills with her partner in the IT industry, and creating a business that generates six figures profit within two years, she was then able to pursue her passion in the property industry.
+          </p>
+          <p>
+            Having success in renovating and selling property, she has now also turned her focus to the property rental market. Working closely with mentors and investors in London,
+            she has adopted a system that maximises rental income while maintaining property to a high standard.
+          </p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/wrapper-img.jpg" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-7">
+      <h2>HOW WE CAN HELP</h2>
+      <p>Whether you are a landlord looking to maximise your rental income, or a property owner looking to sell your property quickly, we can help.</p>
+      <p>Are you a Landlord?
+        <ul>
+          <li>- Guaranteed rental income</li>
+          <li>- Fully managed property service</li>
+          <li>- Professionally maintained</li>
+          <li>- Hands off solution</li>
+          <li>- No fees</li>
+        </ul>
+      </p>
+      <p>Are you a property owner looking to sell?
+        <ul>
+          <li>- Any condition</li>
+          <li>- Any type</li>
+          <li>- Cash offers</li>
+          <li>- Fast</li>
+          <li>- No fees</li>
+          <li>- Confidentiality Guaranteed</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>OUR SERVICES</h2>
+        <p>CLSH Property Ltd provides a multitude of property services, for further information please <a href="{{ site.baseurl }}/contact">contact us</a></p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="icon ion-thumbsup"></i>
+          <h4>Guaranteed Rent</h4>
+          <p>Regardless of any void periods, we guarantee rent is paid on time.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-person-stalker"></i>
+          <h4>Fully Managed Property</h4>
+          <p>We use proven systems and management processes</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-hammer"></i>
+          <h4>Professionally Maintained Property</h4>
+          <p>We have professional cleaning and maintenance teams to service your property</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-ios-home"></i>
+          <h4>Fast Property Purchase</h4>
+          <p>We make cash offers within 24 hours of viewing the property regardless of the condition</p>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- Call to action Start 
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>CONTACT</h2>
+          <p>Please get in contact for further information.</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start 
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Fun Facts About Us</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+-->
