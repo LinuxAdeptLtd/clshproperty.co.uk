@@ -1,12 +1,24 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Ignore bundler config
+/.bundle
 
-# Test binary, build with `go test -c`
-*.test
+# Ignore the default SQLite database.
+/db/*.sqlite3
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
